@@ -3,4 +3,4 @@ This repository is started from a clone of simclimat-1.0d.tar.gz which is an evo
 
 Climate-Model is also known as Simclimat and used for educational purposes in France.
 
-Tis repository has been initiated to support HackCC Hackaton on October 9-10 2015 at IFÉ ENS de Lyon.
+This repository has been initiated to support HackCC Hackaton on October 9-10 2015 at IFÉ ENS de Lyon.
