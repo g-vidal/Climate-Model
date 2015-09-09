@@ -1,0 +1,192 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://web.resource.org/cc/"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="659.03998"
+   height="270.5"
+   id="svg9236"
+   sodipodi:version="0.32"
+   inkscape:version="0.45"
+   sodipodi:docbase="/home/camille/ubuntu/CIES/Atelier_projet/modele-climat-2.0/figures_explications"
+   sodipodi:docname="obliquite.svg"
+   inkscape:output_extension="org.inkscape.output.svg.inkscape"
+   version="1.0"
+   sodipodi:modified="true">
+  <defs
+     id="defs9238" />
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     gridtolerance="10000"
+     guidetolerance="10"
+     objecttolerance="10"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="0.98994949"
+     inkscape:cx="417.04529"
+     inkscape:cy="63.359704"
+     inkscape:document-units="px"
+     inkscape:current-layer="layer1"
+     inkscape:window-width="910"
+     inkscape:window-height="626"
+     inkscape:window-x="461"
+     inkscape:window-y="198"
+     width="659.04px"
+     height="270.5px" />
+  <metadata
+     id="metadata9241">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(-77.480932,-44.113771)">
+    <text
+       xml:space="preserve"
+       style="font-size:12.99999987;font-style:normal;font-weight:normal;text-align:start;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;font-family:Bitstream Vera Sans;font-stretch:normal;font-variant:normal;writing-mode:lr;line-height:125%"
+       x="116.93584"
+       y="100.23476"
+       id="text9244"
+       transform="scale(1.0355554,0.9656654)"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         x="116.93584"
+         y="100.23476"
+         id="tspan9248">L'obliquité est l'angle d'inclinaison de l'axe des pôles par rapport à la perpendiculaire </tspan><tspan
+         sodipodi:role="line"
+         x="116.93584"
+         y="116.48476"
+         id="tspan4287">au plan de la trajectoire de Terre:</tspan></text>
+    <path
+       sodipodi:type="arc"
+       style="fill:#b96e41;fill-opacity:1;stroke:#000000;stroke-width:1.60000002;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;font-family:Bitstream Vera Sans;font-weight:normal;font-style:normal;font-stretch:normal;font-variant:normal;font-size:18.6968603px;text-anchor:start;text-align:start;writing-mode:lr;line-height:125%"
+       id="path9250"
+       sodipodi:cx="402.14285"
+       sodipodi:cy="188.07646"
+       sodipodi:rx="70.714287"
+       sodipodi:ry="68.571426"
+       d="M 472.85714 188.07646 A 70.714287 68.571426 0 1 1  331.42857,188.07646 A 70.714287 68.571426 0 1 1  472.85714 188.07646 z"
+       transform="matrix(0.6646391,0,0,0.6197824,137.23478,105.95404)" />
+    <path
+       style="fill:none;fill-rule:evenodd;stroke:#3517e4;stroke-width:1.92545688;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;font-family:Bitstream Vera Sans;font-weight:normal;font-style:normal;font-stretch:normal;font-variant:normal;font-size:12px;text-anchor:start;text-align:start;writing-mode:lr;line-height:125%"
+       d="M 378.40381,288.92577 L 446.76669,128.66775"
+       id="path10223"
+       sodipodi:nodetypes="cc" />
+    <text
+       xml:space="preserve"
+       style="font-size:12px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;writing-mode:lr-tb;text-anchor:start;fill:#03149f;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;font-family:Bitstream Vera Sans"
+       x="432.92706"
+       y="156.42307"
+       id="text10227"
+       transform="scale(1.0355554,0.9656654)"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         id="tspan10229"
+         x="432.92706"
+         y="156.42307">axe des pôles</tspan></text>
+    <path
+       style="fill:none;fill-rule:evenodd;stroke:#ef1b1b;stroke-width:1.92545688;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:11.55274155, 11.55274155;stroke-dashoffset:0;stroke-opacity:1;font-family:Bitstream Vera Sans;font-weight:normal;font-style:normal;font-stretch:normal;font-variant:normal;font-size:12px;text-anchor:start;text-align:start;writing-mode:lr;line-height:125%"
+       d="M 188.50694,281.84254 C 250.12415,280.33918 290.89037,275.80265 319.53578,272.10311 C 351.41977,263.14417 375.2882,258.02329 394.54505,241.99939 C 413.06271,232.03171 403.37832,214.21092 391.6966,206.58326 C 364.14946,193.60861 342.93532,187.12403 305.29352,183.56277 C 264.33052,177.70312 226.07807,176.89871 187.55745,175.59414"
+       id="path10231"
+       sodipodi:nodetypes="cccccc" />
+    <text
+       xml:space="preserve"
+       style="font-size:12px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;writing-mode:lr-tb;text-anchor:start;fill:#d00808;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;font-family:Bitstream Vera Sans"
+       x="196.66383"
+       y="210.37746"
+       id="text11202"
+       transform="scale(1.0355554,0.9656654)"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         id="tspan11204"
+         x="196.66383"
+         y="210.37746">Trajectoire de la Terre</tspan></text>
+    <path
+       style="fill:none;fill-rule:evenodd;stroke:#d70c0c;stroke-width:0.96272844;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;font-family:Bitstream Vera Sans;font-weight:normal;font-style:normal;font-stretch:normal;font-variant:normal;font-size:12px;text-anchor:start;text-align:start;writing-mode:lr;line-height:125%"
+       d="M 323.33372,178.25036 L 300.5461,182.67737 L 322.38423,190.64601"
+       id="path11206" />
+    <path
+       style="fill:none;fill-rule:evenodd;stroke:#ec0e0e;stroke-width:1.92545688;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:11.55274155, 1.92545693;stroke-dashoffset:0;stroke-opacity:1;font-family:Bitstream Vera Sans;font-weight:normal;font-style:normal;font-stretch:normal;font-variant:normal;font-size:12px;text-anchor:start;text-align:start;writing-mode:lr;line-height:125%"
+       d="M 405.93887,126.01154 L 404.98939,289.81118"
+       id="path11208"
+       sodipodi:nodetypes="cc" />
+    <text
+       xml:space="preserve"
+       style="font-size:12px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;writing-mode:lr-tb;text-anchor:start;fill:#cd0b0b;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;font-family:Bitstream Vera Sans"
+       x="403.64536"
+       y="283.48248"
+       id="text11210"
+       transform="scale(1.0355554,0.9656654)"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         id="tspan11212"
+         x="403.64536"
+         y="283.48248">perpendiculaire </tspan><tspan
+         sodipodi:role="line"
+         x="403.64536"
+         y="298.48248"
+         id="tspan11216">à la trajectoire</tspan></text>
+    <path
+       style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:0.64181894px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;font-family:Bitstream Vera Sans;font-weight:normal;font-style:normal;font-stretch:normal;font-variant:normal;font-size:12px;text-anchor:start;text-align:start;writing-mode:lr;line-height:125%"
+       d="M 405.93887,136.63639 C 418.75516,138.65369 430.14975,141.1129 440.12031,145.49042"
+       id="path13156"
+       sodipodi:nodetypes="cz" />
+    <text
+       xml:space="preserve"
+       style="font-size:11.99999988px;font-style:normal;font-weight:normal;text-align:start;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;font-family:Bitstream Vera Sans;font-stretch:normal;font-variant:normal;writing-mode:lr;line-height:125%"
+       x="414.00635"
+       y="129.57504"
+       id="text13158"
+       transform="scale(1.0355554,0.9656654)"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         id="tspan13160"
+         x="414.00635"
+         y="129.57504">obliquité</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:11.99999988px;font-style:normal;font-weight:normal;text-align:start;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;font-family:Bitstream Vera Sans;font-stretch:normal;font-variant:normal;writing-mode:lr;line-height:125%"
+       x="444.26358"
+       y="232.26607"
+       id="text19945"
+       transform="scale(1.0355554,0.9656654)"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         id="tspan19947"
+         x="444.26358"
+         y="232.26607">Terre</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:12px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;font-family:Bitstream Vera Sans"
+       x="425.37814"
+       y="191.26466"
+       id="text19949"
+       transform="scale(1.0355554,0.9656654)"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         id="tspan19951"
+         x="425.37814"
+         y="191.26466">pôle Nord</tspan></text>
+    <path
+       style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:2;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;font-family:Bitstream Vera Sans;font-weight:normal;font-style:normal;font-stretch:normal;font-variant:normal;font-size:12px;text-anchor:start;text-align:start;writing-mode:lr;line-height:125%"
+       d="M 111.36919,73.737271 L 707.20225,73.737271 L 707.20225,305.27281 L 112.71418,305.27281 L 111.36919,73.737271 z "
+       id="path2179"
+       sodipodi:nodetypes="ccccc" />
+  </g>
+</svg>

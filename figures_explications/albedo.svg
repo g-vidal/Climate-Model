@@ -1,0 +1,200 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://web.resource.org/cc/"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="744.09448"
+   height="278"
+   id="svg2"
+   sodipodi:version="0.32"
+   inkscape:version="0.45"
+   sodipodi:docbase="/home/camille/ubuntu/CIES/Atelier_projet/modele-climat-2.0/figures_explications"
+   sodipodi:docname="albedo.svg"
+   inkscape:output_extension="org.inkscape.output.svg.inkscape"
+   version="1.0"
+   sodipodi:modified="true">
+  <defs
+     id="defs4" />
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     gridtolerance="10000"
+     guidetolerance="10"
+     objecttolerance="10"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="0.98994949"
+     inkscape:cx="475"
+     inkscape:cy="193.75169"
+     inkscape:document-units="px"
+     inkscape:current-layer="layer1"
+     inkscape:window-width="1008"
+     inkscape:window-height="718"
+     inkscape:window-x="228"
+     inkscape:window-y="25"
+     height="278px"
+     width="744.09448px" />
+  <metadata
+     id="metadata7">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1">
+    <text
+       xml:space="preserve"
+       style="font-size:13.00000005;font-style:normal;font-weight:normal;text-align:start;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;font-family:Bitstream Vera Sans;font-stretch:normal;font-variant:normal;writing-mode:lr;line-height:125%"
+       x="97.172523"
+       y="70.216431"
+       id="text2160"
+       transform="scale(0.9812934,1.0190632)"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         x="97.172523"
+         y="70.216431"
+         id="tspan2164">L'albédo est la proportion d'énergie solaire reçue qui est réfléchie vers l'espace:</tspan></text>
+    <rect
+       style="opacity:1;color:#000000;fill:#f3c489;fill-opacity:1;fill-rule:nonzero;stroke:#000000;stroke-width:0.66285205;stroke-linecap:butt;stroke-linejoin:miter;marker:none;marker-start:none;marker-mid:none;marker-end:none;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;visibility:visible;display:inline;overflow:visible;enable-background:accumulate;font-family:Bitstream Vera Sans;font-weight:normal;font-style:normal;font-stretch:normal;font-variant:normal;font-size:12px;text-anchor:start;text-align:start;writing-mode:lr;line-height:125%"
+       id="rect2166"
+       width="338.23526"
+       height="48.249149"
+       x="218.94073"
+       y="201.82767"
+       ry="0" />
+    <path
+       style="fill:#000000;fill-opacity:0;fill-rule:evenodd;stroke:#fd3a08;stroke-width:5.369102;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;font-family:Bitstream Vera Sans;font-weight:normal;font-style:normal;font-stretch:normal;font-variant:normal;font-size:12px;text-anchor:start;text-align:start;writing-mode:lr;line-height:125%"
+       d="M 302.57031,134.27887 L 343.4559,169.01827 L 401.06739,131.38393"
+       id="path3148" />
+    <path
+       style="fill:none;fill-rule:evenodd;stroke:#f74502;stroke-width:6.76109076;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;font-family:Bitstream Vera Sans;font-weight:normal;font-style:normal;font-stretch:normal;font-variant:normal;font-size:12px;text-anchor:start;text-align:start;writing-mode:lr;line-height:125%"
+       d="M 306.28719,130.41893 L 382.48304,197.96776 L 481.90934,122.69907"
+       id="path3150" />
+    <path
+       style="fill:none;fill-rule:evenodd;stroke:#f82b07;stroke-width:10.68604374;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;font-family:Bitstream Vera Sans;font-weight:normal;font-style:normal;font-stretch:normal;font-variant:normal;font-size:12px;text-anchor:start;text-align:start;writing-mode:lr;line-height:125%"
+       d="M 378.69418,197.07752 L 377.90892,228.77247"
+       id="path3152" />
+    <path
+       style="fill:none;fill-rule:evenodd;stroke:#f43b06;stroke-width:18.84213066;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;font-family:Bitstream Vera Sans;font-weight:normal;font-style:normal;font-stretch:normal;font-variant:normal;font-size:12px;text-anchor:start;text-align:start;writing-mode:lr;line-height:125%"
+       d="M 288.31059,123.33023 L 380.01686,198.3016"
+       id="path6061" />
+    <path
+       style="fill:none;fill-rule:evenodd;stroke:#f72908;stroke-width:10.43447208;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;font-family:Bitstream Vera Sans;font-weight:normal;font-style:normal;font-stretch:normal;font-variant:normal;font-size:12px;text-anchor:start;text-align:start;writing-mode:lr;line-height:125%"
+       d="M 293.02691,116.64826 L 352.99931,164.45426"
+       id="path8003" />
+    <text
+       xml:space="preserve"
+       style="font-size:12px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;font-family:Bitstream Vera Sans"
+       x="236.69518"
+       y="98.624374"
+       id="text8974"
+       transform="scale(0.9812934,1.0190632)"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         id="tspan8976"
+         x="236.69518"
+         y="98.624374">énergie solaire</tspan><tspan
+         sodipodi:role="line"
+         x="236.69518"
+         y="113.62437"
+         id="tspan8978">reçue</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:12px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;font-family:Bitstream Vera Sans"
+       x="457.29678"
+       y="91.685585"
+       id="text8980"
+       transform="scale(0.9812934,1.0190632)"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         x="457.29678"
+         y="91.685585"
+         id="tspan8984">énergie solaire réfléchie</tspan><tspan
+         sodipodi:role="line"
+         x="457.29678"
+         y="106.68559"
+         id="tspan10956">vers l'espace</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:12px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;font-family:Bitstream Vera Sans"
+       x="403.80408"
+       y="216.99083"
+       id="text8986"
+       transform="scale(0.9812934,1.0190632)"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         x="403.80408"
+         y="216.99083"
+         id="tspan8990">énergie solaire absorbée</tspan><tspan
+         sodipodi:role="line"
+         x="403.80408"
+         y="231.99083"
+         id="tspan11929">par la Terre</tspan></text>
+    <path
+       style="fill:#f43b06;fill-opacity:1;fill-rule:evenodd;stroke:#f52d08;stroke-width:0.66285205px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;font-family:Bitstream Vera Sans;font-weight:normal;font-style:normal;font-stretch:normal;font-variant:normal;font-size:12px;text-anchor:start;text-align:start;writing-mode:lr;line-height:125%"
+       d="M 366.68634,224.98729 L 389.91677,224.98729 L 377.83695,237.53206 L 366.68634,224.98729 z "
+       id="path9010" />
+    <path
+       style="fill:#f63c07;fill-opacity:1;fill-rule:evenodd;stroke:#f52a0a;stroke-width:0.66285205px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;font-family:Bitstream Vera Sans;font-weight:normal;font-style:normal;font-stretch:normal;font-variant:normal;font-size:12px;text-anchor:start;text-align:start;writing-mode:lr;line-height:125%"
+       d="M 471.68794,120.76911 L 481.90933,133.31389 L 491.2015,115.94419 L 471.68794,120.76911 z "
+       id="path9012"
+       sodipodi:nodetypes="cccc" />
+    <path
+       style="fill:#f73c08;fill-opacity:1;fill-rule:evenodd;stroke:#fe2c06;stroke-width:0.66285205px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;font-family:Bitstream Vera Sans;font-weight:normal;font-style:normal;font-stretch:normal;font-variant:normal;font-size:12px;text-anchor:start;text-align:start;writing-mode:lr;line-height:125%"
+       d="M 393.16904,127.52399 L 403.39043,140.06877 L 412.68262,122.69907 L 393.16904,127.52399 z "
+       id="path9014"
+       sodipodi:nodetypes="cccc" />
+    <text
+       xml:space="preserve"
+       style="font-size:12px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;font-family:Bitstream Vera Sans"
+       x="250.78012"
+       y="166.84778"
+       id="text11931"
+       transform="scale(0.9812934,1.0190632)"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         id="tspan11933"
+         x="250.78012"
+         y="166.84778">atmosphère</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:12px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;font-family:Bitstream Vera Sans"
+       x="249.46048"
+       y="194.22014"
+       id="text11935"
+       transform="scale(0.9812934,1.0190632)"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         id="tspan11937"
+         x="249.46048"
+         y="194.22014">surface terrestre</tspan></text>
+    <path
+       style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:2;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;font-family:Bitstream Vera Sans;font-weight:normal;font-style:normal;font-stretch:normal;font-variant:normal;font-size:12px;text-anchor:start;text-align:start;writing-mode:lr;line-height:125%"
+       d="M 87.056749,52.335537 L 627.22897,52.335537 L 627.22897,262.38883 L 87.056749,262.38883 L 87.056749,52.335537 z "
+       id="path2183"
+       sodipodi:nodetypes="ccccc" />
+  </g>
+  <g
+     inkscape:groupmode="layer"
+     id="layer2">
+    <path
+       style="fill:#e6f0f7;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:0.46072504px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;font-family:Bitstream Vera Sans;font-weight:normal;font-style:normal;font-stretch:normal;font-variant:normal;font-size:12px;text-anchor:start;text-align:start;writing-mode:lr;line-height:125%"
+       d="M 351.31283,157.80418 C 347.5562,156.33992 344.35907,156.98416 339.97148,157.22091 C 337.53293,156.96255 334.27785,157.12908 334.0201,159.4642 C 332.86156,161.46403 334.48666,163.61622 336.75914,164.7082 C 337.79695,165.3358 340.32553,165.89835 337.62682,166.09692 C 335.44218,166.61058 333.10974,166.8812 331.07381,167.68024 C 328.7443,169.30262 329.17733,171.90585 328.39552,174.02678 C 328.17852,176.29043 331.29927,177.58099 333.57323,178.5335 C 336.04812,179.36682 338.51426,180.75632 341.38756,180.32232 C 343.58046,180.30922 345.93383,179.06539 347.7341,179.06979 C 349.43918,180.70235 351.12054,182.34875 352.83565,183.97542 C 355.59768,185.03364 358.93099,184.25695 361.874,184.07593 C 364.69654,183.68473 367.97399,183.5828 369.95403,181.79043 C 371.45316,180.37498 373.66161,178.63683 372.97226,176.71723 C 371.80095,176.01062 375.1839,176.80316 376.07308,176.57822 C 379.44452,176.55435 383.61881,176.84903 385.88945,174.56312 C 387.1088,172.31326 386.2536,169.79251 385.75164,167.48546 C 385.38869,164.99644 381.23197,165.75759 378.99945,165.0596 C 378.94897,163.21119 382.95063,162.44438 384.51445,161.05331 C 387.4231,159.95947 386.26396,157.60346 383.63861,156.9056 C 381.42621,156.02623 379.24694,154.99909 376.87703,154.41113 C 373.23696,154.08835 369.45805,154.63382 366.10077,155.69613 C 363.06055,156.67016 361.10173,158.74909 358.49217,160.15746 C 356.47197,160.8602 353.4499,157.5964 351.31283,157.80418 z "
+       id="path3145"
+       sodipodi:nodetypes="cccccccccccccccccccccccc" />
+  </g>
+</svg>

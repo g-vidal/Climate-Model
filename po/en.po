@@ -1,0 +1,577 @@
+# English translations for modele-climat package.
+# Copyright (C) 2008 THE modele-climat'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the modele-climat package.
+# Camille Risi <crlmd@lmd.jussieu.fr>, 2008.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: modele-climat 2.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2009-01-22 18:49+0100\n"
+"PO-Revision-Date: 2008-04-06 17:52+0200\n"
+"Last-Translator: Camille Risi <crlmd@lmd.jussieu.fr>\n"
+"Language-Team: English\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: src/modele_constants.cpp:138
+msgid "Température (en °C)"
+msgstr "Temperature (deg C)"
+
+#: src/modele_constants.cpp:140
+msgid "Niveau de la mer (en m)"
+msgstr "Sea level (m)"
+
+#: src/modele_constants.cpp:142
+msgid "Latitude des calottes (en deg.)"
+msgstr "Latitudinal extension of ice shelves (deg)"
+
+#: src/modele_constants.cpp:144
+msgid "Concentration de CO2 (en ppm)"
+msgstr "CO2 concentration (ppm)"
+
+#: src/modele_constants.cpp:146
+msgid "Émissions de CO2 (en Gt/an)"
+msgstr "CO2 emmisions (Gt/yr)"
+
+#: src/modele_constants.cpp:148
+msgid "Albédo (en %)"
+msgstr "soil albedo"
+
+#: gui/cairo_graphe.cc:240 gui/cairo_graphe.cc:242
+msgid "temps (en années)"
+msgstr "Time (years)"
+
+#: gui/choix_des_parametres_dialog_glade.cc:45
+msgid "figures_explications/albedo.svg"
+msgstr "figures_explications/albedo_en.svg"
+
+#: gui/choix_des_parametres_dialog_glade.cc:46
+msgid "figures_explications/excentricite.svg"
+msgstr "figures_explications/excentricite_en.svg"
+
+#: gui/choix_des_parametres_dialog_glade.cc:47
+msgid "figures_explications/obliquite.svg"
+msgstr "figures_explications/obliquite_en.svg"
+
+#: gui/choix_des_parametres_dialog_glade.cc:48
+msgid "figures_explications/precession.svg"
+msgstr "figures_explications/precession_en.svg"
+
+#: gui/choix_des_parametres_dialog_glade.cc:49
+msgid "figures_explications/albedo.png"
+msgstr "figures_explications/albedo_en.png"
+
+#: gui/choix_des_parametres_dialog_glade.cc:50
+msgid "figures_explications/excentricite.png"
+msgstr "figures_explications/excentricite_en.png"
+
+#: gui/choix_des_parametres_dialog_glade.cc:51
+msgid "figures_explications/obliquite.png"
+msgstr "figures_explications/obliquite_en.png"
+
+#: gui/choix_des_parametres_dialog_glade.cc:52
+msgid "figures_explications/precession.png"
+msgstr "figures_explications/precession_en.png"
+
+#: gui/choix_des_parametres_dialog_glade.cc:662
+msgid "<b>Distance Terre-Soleil:</b>"
+msgstr "<b>Earth-Sun distance:</b>"
+
+#: gui/choix_des_parametres_dialog_glade.cc:663
+#, no-c-format
+msgid ""
+"<b>Régler la distance</b> \n"
+" (en % de la distance actuelle: ex: 100 pour l'actuel"
+msgstr ""
+"<b>Tune the distance</b> \n"
+" (% of today's distance: ex: 100 for today"
+
+#: gui/choix_des_parametres_dialog_glade.cc:665
+msgid "Actuelle"
+msgstr "Today"
+
+#: gui/choix_des_parametres_dialog_glade.cc:666
+msgid "Autre:"
+msgstr "Other:"
+
+#: gui/choix_des_parametres_dialog_glade.cc:674
+msgid "distance Terre-Soleil"
+msgstr "Earth-Sun distance"
+
+#: gui/choix_des_parametres_dialog_glade.cc:675
+msgid "<b>Puissance solaire:</b>"
+msgstr "<b>Sun power:</b>"
+
+#: gui/choix_des_parametres_dialog_glade.cc:676
+#, no-c-format
+msgid ""
+"Régler la puissance solaire\n"
+" (en % de la puissance actuelle:\n"
+" ex: 100 pour l'actuel)"
+msgstr ""
+"Tune the solar power\n"
+" (% of today's solar power:\n"
+" ex: 100 for today)"
+
+#: gui/choix_des_parametres_dialog_glade.cc:678
+#: gui/choix_des_parametres_dialog_glade.cc:693
+#: gui/choix_des_parametres_dialog_glade.cc:709
+#: gui/choix_des_parametres_dialog_glade.cc:725
+msgid "actuelle"
+msgstr "today"
+
+#: gui/choix_des_parametres_dialog_glade.cc:679
+msgid "comme à la création de la Terre"
+msgstr "as at the earth creation"
+
+#: gui/choix_des_parametres_dialog_glade.cc:680
+#: gui/choix_des_parametres_dialog_glade.cc:696
+#: gui/choix_des_parametres_dialog_glade.cc:712
+#: gui/choix_des_parametres_dialog_glade.cc:728
+#: gui/choix_des_parametres_dialog_glade.cc:760
+#: gui/choix_des_parametres_dialog_glade.cc:775
+#: gui/choix_des_parametres_dialog_glade.cc:786
+#: gui/choix_des_parametres_dialog_glade.cc:798
+msgid "autre:"
+msgstr "other:"
+
+#: gui/choix_des_parametres_dialog_glade.cc:689
+msgid "puissance solaire"
+msgstr "solar power"
+
+#: gui/choix_des_parametres_dialog_glade.cc:690
+msgid "<b>Excentricité:</b>"
+msgstr "<b>Excentricity:</b>"
+
+#: gui/choix_des_parametres_dialog_glade.cc:691
+msgid "Régler l'excentricité (sans unité):"
+msgstr "Tune the excentricity (no unit):"
+
+#: gui/choix_des_parametres_dialog_glade.cc:694
+#: gui/choix_des_parametres_dialog_glade.cc:710
+#: gui/choix_des_parametres_dialog_glade.cc:726
+msgid "valeur minimale"
+msgstr "minimum value"
+
+#: gui/choix_des_parametres_dialog_glade.cc:695
+#: gui/choix_des_parametres_dialog_glade.cc:711
+#: gui/choix_des_parametres_dialog_glade.cc:727
+msgid "valeur maximale"
+msgstr "maximum value"
+
+#: gui/choix_des_parametres_dialog_glade.cc:705
+msgid "excentricité"
+msgstr "Excentricity"
+
+#: gui/choix_des_parametres_dialog_glade.cc:706
+msgid "<b>Obliquité:</b>"
+msgstr "<b>Obliquity:</b>"
+
+#: gui/choix_des_parametres_dialog_glade.cc:707
+msgid "Régler l'obliquité (en degrès):"
+msgstr "Tune the obliquity (degrees):"
+
+#: gui/choix_des_parametres_dialog_glade.cc:721
+msgid "obliquité"
+msgstr "obliquity"
+
+#: gui/choix_des_parametres_dialog_glade.cc:722
+msgid "<b>Précession:</b>"
+msgstr "<b>Precession:</b>"
+
+#: gui/choix_des_parametres_dialog_glade.cc:723
+msgid "Régler la précession (en degres)"
+msgstr "Tune the precession (degress)"
+
+#: gui/choix_des_parametres_dialog_glade.cc:737
+msgid "précession"
+msgstr "precession"
+
+#: gui/choix_des_parametres_dialog_glade.cc:746
+msgid "paramètres astronomiques"
+msgstr "astronomical parameters"
+
+#: gui/choix_des_parametres_dialog_glade.cc:748
+msgid ""
+"Vous avez le choix entre deux types de simulation\n"
+"  concernant la concentration en CO2 dans l'atmosphère:\n"
+msgstr ""
+"Two types of simulations are possible\n"
+"  for the atmospheric CO2 concentartion:\n"
+
+#: gui/choix_des_parametres_dialog_glade.cc:750
+msgid ""
+"Fixer la concentration de CO2: \n"
+" toute la simulation se fera alors à concentration constante, réglable par "
+"l'utilisateur."
+msgstr ""
+"Tune the CO2 concentration: \n"
+" The CO2 concentration will be held constant throughout the whole simulation "
+"and is tunable."
+
+#: gui/choix_des_parametres_dialog_glade.cc:751
+msgid ""
+"Fixer les sources et les puits de CO2: \n"
+" la concentration en CO2 sera alors calculée automatiquement par le modèle."
+msgstr ""
+"Tune sources and sinks of CO2: \n"
+" CO2 concentration will be automatically calculated by the model."
+
+#: gui/choix_des_parametres_dialog_glade.cc:754
+msgid "<b>Fixer la concentration en CO<sub>2</sub> (en ppm):</b>"
+msgstr "<b>Choose CO<sub>2</sub> concentration (ppm):</b>"
+
+#: gui/choix_des_parametres_dialog_glade.cc:756
+#: gui/choix_des_parametres_dialog_glade.cc:773
+#: gui/choix_des_parametres_dialog_glade.cc:784
+#: gui/choix_des_parametres_dialog_glade.cc:797
+#: gui/choix_des_parametres_dialog_glade.cc:858
+#: gui/choix_des_parametres_dialog_glade.cc:878
+#: gui/choix_des_parametres_dialog_glade.cc:894
+msgid "comme aujourd'hui"
+msgstr "as today"
+
+#: gui/choix_des_parametres_dialog_glade.cc:758
+msgid "comme au Crétacé"
+msgstr "as in Creatceous"
+
+#: gui/choix_des_parametres_dialog_glade.cc:759
+msgid "comme au début de l'histoire de la Terre"
+msgstr "as at the beginning of the Earth history"
+
+#: gui/choix_des_parametres_dialog_glade.cc:768
+msgid "<b>Sources et puits de CO<sub>2</sub>:</b>\n"
+msgstr "<b>Sources and sinks de CO<sub>2</sub>:</b>\n"
+
+#: gui/choix_des_parametres_dialog_glade.cc:769
+msgid "<b>Sources de CO<sub>2</sub>:</b>\n"
+msgstr "<b>Sources of CO<sub>2</sub>:</b>\n"
+
+#: gui/choix_des_parametres_dialog_glade.cc:770
+msgid "<b>Emissions anthropiques (en Gt/an):</b>"
+msgstr "<b>Anthropic emissions (Gt/yr):</b>"
+
+#: gui/choix_des_parametres_dialog_glade.cc:772
+msgid "nulles"
+msgstr "zero"
+
+#: gui/choix_des_parametres_dialog_glade.cc:774
+msgid "2 fois plus qu'ajourd'hui"
+msgstr "2 times more than today"
+
+#: gui/choix_des_parametres_dialog_glade.cc:782
+msgid "<b>Volcanisme (en Gt/an)</b>"
+msgstr "<b>Volcanism (Gt/yr)</b>"
+
+#: gui/choix_des_parametres_dialog_glade.cc:785
+msgid "comme au début de l'histoire de la terre"
+msgstr "as at the beginning of the Earth history"
+
+#: gui/choix_des_parametres_dialog_glade.cc:794
+msgid "<b>Puits de CO<sub>2</sub>:</b>\n"
+msgstr "<b>Sinks of CO<sub>2</sub>:</b>\n"
+
+#: gui/choix_des_parametres_dialog_glade.cc:795
+#, no-c-format
+msgid ""
+"<b>Altération continentale \n"
+" (en % de l'altération actuelle):</b>"
+msgstr ""
+"<b>continental alteration \n"
+" (% of today's alteration):</b>"
+
+#: gui/choix_des_parametres_dialog_glade.cc:805
+msgid ""
+"<b>Stockage biologique\n"
+" (en Mt/an/ppm)</b>"
+msgstr ""
+"<b>Organic sequestration\n"
+" (Mt/yr/ppm)</b>"
+
+#: gui/choix_des_parametres_dialog_glade.cc:807
+msgid "nul"
+msgstr "zero"
+
+#: gui/choix_des_parametres_dialog_glade.cc:808
+msgid "comme au Carbonifère"
+msgstr "as in Carboniferous"
+
+#: gui/choix_des_parametres_dialog_glade.cc:809
+#: gui/choix_des_parametres_dialog_glade.cc:839
+#: gui/choix_des_parametres_dialog_glade.cc:879
+#: gui/choix_des_parametres_dialog_glade.cc:895
+msgid "autre: "
+msgstr "other:"
+
+#: gui/choix_des_parametres_dialog_glade.cc:828
+msgid "concentration ou émissions de CO<sub>2</sub>"
+msgstr "CO<sub>2</sub> concentration or emissions"
+
+#: gui/choix_des_parametres_dialog_glade.cc:830
+msgid "<b>Rétroaction de l'albédo de la planète</b>"
+msgstr "<b>Planetary albedo feedback</b>"
+
+#: gui/choix_des_parametres_dialog_glade.cc:833
+msgid ""
+"Débrancher la retroaction: \n"
+" l'albédo de la planète a alors une valeur fixe réglable (en %):"
+msgstr ""
+"Unplug the feedback: \n"
+" The planetary albedo is held constant to a tunable value (%):"
+
+#: gui/choix_des_parametres_dialog_glade.cc:836
+msgid "albédo actuel"
+msgstr "today's albedo"
+
+#: gui/choix_des_parametres_dialog_glade.cc:837
+msgid "albédo de la glace"
+msgstr "ice albedo"
+
+#: gui/choix_des_parametres_dialog_glade.cc:838
+msgid "albédo d'un sol"
+msgstr "soil albedo"
+
+#: gui/choix_des_parametres_dialog_glade.cc:847
+msgid "Autoriser la rétroaction: l'albédo dépend alors de la température"
+msgstr "Autorize the feedback: the albedo depends on temperature"
+
+#: gui/choix_des_parametres_dialog_glade.cc:850
+msgid "albédo"
+msgstr "albedo"
+
+#: gui/choix_des_parametres_dialog_glade.cc:851
+msgid "<b>Rétroaction liée à la solubilité du CO<sub>2</sub></b>"
+msgstr "<b>CO<sub>2</sub> solubility feedback</b>"
+
+#: gui/choix_des_parametres_dialog_glade.cc:853
+msgid "ne pas considérer les flux océaniques de CO2"
+msgstr "don't consider oceanic fluxes CO2"
+
+#: gui/choix_des_parametres_dialog_glade.cc:854
+msgid ""
+"Considérer les flux océaniques de CO2, mais sans qu'ils dépendent de la "
+"température:"
+msgstr "Condiser the oceanic CO2 fluxes, but they don't depend on temperature:"
+
+#: gui/choix_des_parametres_dialog_glade.cc:856
+#, no-c-format
+msgid "-> régler alors le % des émissions de CO2 épongées par l'océan:"
+msgstr "-> tune the % of CO2 emissions absorbed by the ocean:"
+
+#: gui/choix_des_parametres_dialog_glade.cc:867
+msgid "Les flux de C02 dépendent de la température"
+msgstr "The fluxes of CO2 depend on temperature"
+
+#: gui/choix_des_parametres_dialog_glade.cc:870
+msgid "océan"
+msgstr "ocean"
+
+#: gui/choix_des_parametres_dialog_glade.cc:871
+msgid "<b>Rétroaction de la végétation</b>"
+msgstr "<b>Vegetation feedback</b>"
+
+#: gui/choix_des_parametres_dialog_glade.cc:873
+msgid "Ne pas considérer les flux de CO2 liés à la végétation"
+msgstr "Don't consider CO2 fluxes related to vegetation"
+
+#: gui/choix_des_parametres_dialog_glade.cc:874
+msgid "Considerer les flux de CO2 liés à la végétation"
+msgstr "Consider the CO2 fluxes related to vegetation"
+
+#: gui/choix_des_parametres_dialog_glade.cc:876
+#, no-c-format
+msgid "-> régler alors le % d'émissions de CO2 epongées par la végétation: "
+msgstr "-> tune the % of CO2 emissions absorbed by the vegetation:"
+
+#: gui/choix_des_parametres_dialog_glade.cc:888
+msgid "vegetation"
+msgstr "vegetation"
+
+#: gui/choix_des_parametres_dialog_glade.cc:889
+msgid "<b>Rétroaction de la vapeur d'eau</b>"
+msgstr "<b>Water vapor feedback</b>"
+
+#: gui/choix_des_parametres_dialog_glade.cc:891
+#, no-c-format
+msgid ""
+"Débrancher la retroaction:\n"
+" la concentration en vapeur d'eau dans l'atmosphère garde alors une valeur "
+"fixe.\n"
+" Cette valeur est réglable, en % de la valeur actuelle:"
+msgstr ""
+"Unplug the feedback:\n"
+" The atmospheric concentration of water vapor is held constant.\n"
+" This value is tunable, in % of today's value:"
+
+#: gui/choix_des_parametres_dialog_glade.cc:903
+msgid ""
+"Autoriser la rétroaction:\n"
+" la concentration en vapeur d'eau dans l'atmosphère depend alors de la "
+"température."
+msgstr ""
+"Autorize the feedback:\n"
+" the atmospheric concentration of water vapordepends of temperature."
+
+#: gui/choix_des_parametres_dialog_glade.cc:906
+msgid "vapeur d'eau"
+msgstr "water vapor"
+
+#: gui/choix_des_parametres_dialog_glade.cc:915
+msgid "rétroactions climatiques"
+msgstr "climatic feedback"
+
+#: gui/choix_des_parametres_dialog_glade.cc:918
+msgid "<b>Nom de la simulation: </b>"
+msgstr "<b>Simulation name: </b>"
+
+#: gui/choix_des_parametres_dialog_glade.cc:1662
+msgid "choix des paramètres"
+msgstr "Choose parameters"
+
+#: gui/choix_etat_initial_dialog_glade.cc:43
+msgid "<b>choix de l'état initial:</b>"
+msgstr "<b>Choose the initial state:</b>"
+
+#: gui/choix_etat_initial_dialog_glade.cc:45
+msgid "Le monde en 2007"
+msgstr "2007's climate"
+
+#: gui/choix_etat_initial_dialog_glade.cc:46
+msgid ""
+"Représente le monde actuel en tenant compte du réchauffement climatique. Le "
+"climat est en déséquilibre."
+msgstr ""
+"Today's climate. Takes into account global warming. The climate is not in "
+"equilibrium."
+
+#: gui/choix_etat_initial_dialog_glade.cc:47
+msgid "Le monde en 1750"
+msgstr "1750's climate"
+
+#: gui/choix_etat_initial_dialog_glade.cc:48
+msgid ""
+"Représente le monde avant la révolution industrielle. Il s'agit de l'état de "
+"référence. Le climat est à l'équilibre."
+msgstr ""
+"Pre-indusrial climate. Reference state The climate is assumed in equilibrium."
+
+#: gui/choix_etat_initial_dialog_glade.cc:49
+msgid "L'état final de la précédente simulation"
+msgstr "The final state of the previous simulation"
+
+#: gui/choix_etat_initial_dialog_glade.cc:50
+msgid ""
+"Ceci vous permet de repartir de l'état final de la précédente simulation."
+msgstr "This allow you to continue your previous simulation."
+
+#: gui/choix_etat_initial_dialog_glade.cc:51
+msgid "autre (état pré-enregistré)"
+msgstr "other (saved state)"
+
+#: gui/choix_etat_initial_dialog_glade.cc:52
+msgid ""
+"Si vous avez déjà enregistré des simulations, ceci vous permet de repartir "
+"de l'état final d'une simulation enregistrée."
+msgstr ""
+"If you have already saved simulations, this allow you to continue this "
+"simulation"
+
+#: gui/choix_etat_initial_dialog_glade.cc:53
+msgid "Choix état initial"
+msgstr "Choose the initial state"
+
+#: gui/choix_etat_initial_dialog_glade.cc:57
+msgid "<b>régler la durée de la simulation:</b>"
+msgstr "<b>Choose the length of the simulation:</b>"
+
+#: gui/choix_etat_initial_dialog_glade.cc:58
+msgid "Durée (années): "
+msgstr "Length (years): "
+
+#: gui/choix_etat_initial_dialog_glade.cc:126
+msgid "choix état initial et durée"
+msgstr "Choose initial state and length of simulation"
+
+#: gui/enregister_etat_final_dialog_glade.cc:41
+msgid "Simulation à enregistrer: "
+msgstr "Simulation to save: "
+
+#: gui/enregister_etat_final_dialog_glade.cc:46
+msgid "Enregistrer Simulation"
+msgstr "Save Simulation"
+
+#: gui/enregister_etat_final_dialog_glade.cc:70
+msgid "enregistrer l'état final"
+msgstr "Save the final state"
+
+#: gui/main_window_glade.cc:68
+msgid "<b>Panneau de commandes</b>"
+msgstr "<b>Control pannel</b>"
+
+#: gui/main_window_glade.cc:70
+msgid "Nouvelle simulation"
+msgstr "New simulation"
+
+#: gui/main_window_glade.cc:75
+msgid "Superposer"
+msgstr "Add"
+
+#: gui/main_window_glade.cc:80
+msgid "Enregistrer l'etat final"
+msgstr "Save the final state"
+
+#: gui/main_window_glade.cc:85
+msgid "<b>Légende des graphes:</b>"
+msgstr "<b>Key:</b>"
+
+#: gui/main_window_glade.cc:96
+msgid "<b>Calottes de glace</b>"
+msgstr "<b>Ice shelves</b>"
+
+#: gui/main_window_glade.cc:100
+msgid "<b>Niveau de la mer</b>"
+msgstr "<b>Sea level</b>"
+
+#: gui/main_window_glade.cc:134
+msgid "S_uperposer"
+msgstr "Add sim_ulation"
+
+#: gui/main_window_glade.cc:146
+msgid "Ani_mations"
+msgstr "Ani_mations"
+
+#: gui/main_window_glade.cc:183
+msgid ""
+"Pour lancer une nouvelle simulation, avec éventuellement une nouvelle durée "
+"de simulation et un nouvel état initial.\n"
+" Attention, les courbes déjà tracées seront effacées."
+msgstr ""
+"Launch a new simulation, with a new simulation length or a new initial state "
+"if you wish.\n"
+" Warning: this will erase the curves you already plotted."
+
+#: gui/main_window_glade.cc:198
+msgid ""
+"Pour superposer une simulation à une simulation déjà réalisée.\n"
+" La durée de simulation et l'état initial seront alors les mêmes que pour la "
+"précédente simulation."
+msgstr ""
+"Perform a new simulation and compare it to the previous ones\n"
+" The length of the simulation and the initial state will be the same as in "
+"the previous simulation."
+
+#: gui/main_window_glade.cc:213
+msgid ""
+"Pour enregister l'état final d'une des simulations déjà réalisées.\n"
+" La simulation enregistrée pourra alors être continuée au cours d'une "
+"simulation ultérieure."
+msgstr ""
+"Save the final state of one of the simulation you just performed.\n"
+" The saved simulation can then be continued later."
+
+#: gui/main_window_glade.cc:302
+msgid "modèle de climat"
+msgstr "climate model"

@@ -1,0 +1,64 @@
+PREFIX=linux-release
+DEST=linux-release/opt/simclimat
+DEBIANDIR=linux-release/DEBIAN
+LOCALBIN=linux-release/usr/local/bin
+
+rm -rf $PREFIX
+
+mkdir -p $DEST
+mkdir -p $DEBIANDIR
+mkdir -p $LOCALBIN
+
+cat > $DEBIANDIR/control <<EOF
+Package: simclimat
+Architecture: amd64
+Version: 1.0c
+Depends: libgtkglextmm1
+Maintainer: Nicolas Gama <nicolas.gama@ens.fr>
+Description: Climate Simulator
+EOF
+
+mkdir $DEST/locale
+mkdir $DEST/locale/en
+mkdir $DEST/locale/en/LC_MESSAGES
+mkdir $DEST/locale/fr
+mkdir $DEST/locale/fr/LC_MESSAGES
+mkdir $DEST/textures
+mkdir $DEST/figures_explications
+
+cp gpl-3.0.txt $DEST/gpl-3.0.txt
+cp gui/climat $DEST/climat
+cp figures_explications/albedo.png $DEST/figures_explications/albedo.png
+cp figures_explications/albedo.svg $DEST/figures_explications/albedo.svg
+cp figures_explications/albedo_en.png $DEST/figures_explications/albedo_en.png
+cp figures_explications/albedo_en.svg $DEST/figures_explications/albedo_en.svg
+cp figures_explications/excentricite.png $DEST/figures_explications/excentricite.png
+cp figures_explications/excentricite.svg $DEST/figures_explications/excentricite.svg
+cp figures_explications/excentricite_en.png $DEST/figures_explications/excentricite_en.png
+cp figures_explications/excentricite_en.svg $DEST/figures_explications/excentricite_en.svg
+cp figures_explications/obliquite.png $DEST/figures_explications/obliquite.png
+cp figures_explications/obliquite.svg $DEST/figures_explications/obliquite.svg
+cp figures_explications/obliquite_en.png $DEST/figures_explications/obliquite_en.png
+cp figures_explications/obliquite_en.svg $DEST/figures_explications/obliquite_en.svg
+cp figures_explications/precession.png $DEST/figures_explications/precession.png
+cp figures_explications/precession.svg $DEST/figures_explications/precession.svg
+cp figures_explications/precession_en.png $DEST/figures_explications/precession_en.png
+cp figures_explications/precession_en.svg $DEST/figures_explications/precession_en.svg
+cp locale/en/LC_MESSAGES/climat.mo $DEST/locale/en/LC_MESSAGES/climat.mo
+cp locale/fr/LC_MESSAGES/climat.mo $DEST/locale/fr/LC_MESSAGES/climat.mo
+cp textures/bonhomme_chaud.rgba $DEST/textures/bonhomme_chaud.rgba
+cp textures/bonhomme_froid.rgba $DEST/textures/bonhomme_froid.rgba
+cp textures/cam_earth0.rgba $DEST/textures/cam_earth0.rgba
+cp textures/cam_earth10.rgba $DEST/textures/cam_earth10.rgba
+cp textures/cam_earth30.rgba $DEST/textures/cam_earth30.rgba
+cp textures/cam_earth50.rgba $DEST/textures/cam_earth50.rgba
+cp textures/cam_earth70.rgba $DEST/textures/cam_earth70.rgba
+cp textures/eau.rgba $DEST/textures/eau.rgba
+cp textures/ile.gray $DEST/textures/ile.gray
+cp textures/neige.rgba $DEST/textures/neige.rgba
+cp textures/palmier-chaud.rgba $DEST/textures/palmier-chaud.rgba
+cp textures/palmier-froid.rgba $DEST/textures/palmier-froid.rgba
+cp textures/sable.rgba $DEST/textures/sable.rgba
+
+cd $LOCALBIN
+ln -s /opt/simclimat/climat simclimat

@@ -1,0 +1,10 @@
+Simclimat 1.0d
+--------------
+
+To compile (for example on Ubuntu karmik or Debian), you will need to install the following packages:
+
+libgtkglextmm-x11-1.2-dev libgtkmm-2.4-dev libglibmm-2.4-dev libcairomm-1.0-dev build-essential g++
+
+The makefile should  do everything: the main exe is ./gui/climat (to be launched from the folder which contains gui, not gui itself) 
+make
+(make install)

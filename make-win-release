@@ -1,0 +1,120 @@
+DEST=release
+GTKMM=/gtkmm
+
+mkdir $DEST
+
+mkdir $DEST/etc
+mkdir $DEST/etc/gtk-2.0
+mkdir $DEST/etc/pango
+mkdir $DEST/figures_explications
+mkdir $DEST/lib
+mkdir $DEST/lib/gtk-2.0
+mkdir $DEST/lib/gtk-2.0/2.10.0
+mkdir $DEST/lib/gtk-2.0/2.10.0/engines
+mkdir $DEST/lib/gtk-2.0/modules
+mkdir $DEST/locale
+mkdir $DEST/locale/en
+mkdir $DEST/locale/en/LC_MESSAGES
+mkdir $DEST/locale/fr
+mkdir $DEST/locale/fr/LC_MESSAGES
+mkdir $DEST/share
+mkdir $DEST/share/locale
+mkdir $DEST/share/locale/en_CA
+mkdir $DEST/share/locale/en_CA/LC_MESSAGES
+mkdir $DEST/share/locale/en_GB
+mkdir $DEST/share/locale/en_GB/LC_MESSAGES
+mkdir $DEST/share/locale/fr
+mkdir $DEST/share/locale/fr/LC_MESSAGES
+mkdir $DEST/share/themes
+mkdir $DEST/share/themes/Default
+mkdir $DEST/share/themes/Default/gtk-2.0-key
+mkdir $DEST/share/themes/Emacs
+mkdir $DEST/share/themes/Emacs/gtk-2.0-key
+mkdir $DEST/share/themes/MS-Windows
+mkdir $DEST/share/themes/MS-Windows/gtk-2.0
+mkdir $DEST/share/themes/Raleigh
+mkdir $DEST/share/themes/Raleigh/gtk-2.0
+mkdir $DEST/textures
+
+cp gpl-3.0.txt $DEST/gpl-3.0.txt
+cp gui/climat.exe $DEST/climat.exe
+cp configprog/languagesetup.exe $DEST/languagesetup.exe
+cp figures_explications/albedo.png $DEST/figures_explications/albedo.png
+cp figures_explications/albedo.svg $DEST/figures_explications/albedo.svg
+cp figures_explications/albedo_en.png $DEST/figures_explications/albedo_en.png
+cp figures_explications/albedo_en.svg $DEST/figures_explications/albedo_en.svg
+cp figures_explications/excentricite.png $DEST/figures_explications/excentricite.png
+cp figures_explications/excentricite.svg $DEST/figures_explications/excentricite.svg
+cp figures_explications/excentricite_en.png $DEST/figures_explications/excentricite_en.png
+cp figures_explications/excentricite_en.svg $DEST/figures_explications/excentricite_en.svg
+cp figures_explications/obliquite.png $DEST/figures_explications/obliquite.png
+cp figures_explications/obliquite.svg $DEST/figures_explications/obliquite.svg
+cp figures_explications/obliquite_en.png $DEST/figures_explications/obliquite_en.png
+cp figures_explications/obliquite_en.svg $DEST/figures_explications/obliquite_en.svg
+cp figures_explications/precession.png $DEST/figures_explications/precession.png
+cp figures_explications/precession.svg $DEST/figures_explications/precession.svg
+cp figures_explications/precession_en.png $DEST/figures_explications/precession_en.png
+cp figures_explications/precession_en.svg $DEST/figures_explications/precession_en.svg
+cp locale/en/LC_MESSAGES/climat.mo $DEST/locale/en/LC_MESSAGES/climat.mo
+cp locale/fr/LC_MESSAGES/climat.mo $DEST/locale/fr/LC_MESSAGES/climat.mo
+cp textures/bonhomme_chaud.rgba $DEST/textures/bonhomme_chaud.rgba
+cp textures/bonhomme_froid.rgba $DEST/textures/bonhomme_froid.rgba
+cp textures/cam_earth0.rgba $DEST/textures/cam_earth0.rgba
+cp textures/cam_earth10.rgba $DEST/textures/cam_earth10.rgba
+cp textures/cam_earth30.rgba $DEST/textures/cam_earth30.rgba
+cp textures/cam_earth50.rgba $DEST/textures/cam_earth50.rgba
+cp textures/cam_earth70.rgba $DEST/textures/cam_earth70.rgba
+cp textures/eau.rgba $DEST/textures/eau.rgba
+cp textures/ile.gray $DEST/textures/ile.gray
+cp textures/neige.rgba $DEST/textures/neige.rgba
+cp textures/palmier-chaud.rgba $DEST/textures/palmier-chaud.rgba
+cp textures/palmier-froid.rgba $DEST/textures/palmier-froid.rgba
+cp textures/sable.rgba $DEST/textures/sable.rgba
+
+cp $GTKMM/etc/gtk-2.0/gdk-pixbuf.loaders $DEST/etc/gtk-2.0/gdk-pixbuf.loaders
+cp $GTKMM/etc/gtk-2.0/gtk.immodules $DEST/etc/gtk-2.0/gtk.immodules
+cp $GTKMM/etc/gtk-2.0/gtkrc $DEST/etc/gtk-2.0/gtkrc
+cp $GTKMM/etc/gtk-2.0/im-multipress.conf $DEST/etc/gtk-2.0/im-multipress.conf
+cp $GTKMM/etc/pango/pango.modules $DEST/etc/pango/pango.modules
+cp $GTKMM/bin/intl.dll $DEST/intl.dll
+cp $GTKMM/bin/jpeg62.dll $DEST/jpeg62.dll
+cp $GTKMM/lib/gtk-2.0/2.10.0/engines/libpixmap.dll $DEST/lib/gtk-2.0/2.10.0/engines/libpixmap.dll
+cp $GTKMM/lib/gtk-2.0/2.10.0/engines/libwimp.dll $DEST/lib/gtk-2.0/2.10.0/engines/libwimp.dll
+cp $GTKMM/lib/gtk-2.0/modules/libgail.dll $DEST/lib/gtk-2.0/modules/libgail.dll
+cp $GTKMM/bin/libatk-1.0-0.dll $DEST/libatk-1.0-0.dll
+cp $GTKMM/bin/libatkmm-1.6-1.dll $DEST/libatkmm-1.6-1.dll
+cp $GTKMM/bin/libcairo-2.dll $DEST/libcairo-2.dll
+cp $GTKMM/bin/libcairomm-1.0-1.dll $DEST/libcairomm-1.0-1.dll
+cp $GTKMM/bin/libgdk-win32-2.0-0.dll $DEST/libgdk-win32-2.0-0.dll
+cp $GTKMM/bin/libgdkmm-2.4-1.dll $DEST/libgdkmm-2.4-1.dll
+cp $GTKMM/bin/libgdk_pixbuf-2.0-0.dll $DEST/libgdk_pixbuf-2.0-0.dll
+cp $GTKMM/bin/libgio-2.0-0.dll $DEST/libgio-2.0-0.dll
+cp $GTKMM/bin/libgiomm-2.4-1.dll $DEST/libgiomm-2.4-1.dll
+cp $GTKMM/bin/libglib-2.0-0.dll $DEST/libglib-2.0-0.dll
+cp $GTKMM/bin/libglibmm-2.4-1.dll $DEST/libglibmm-2.4-1.dll
+cp $GTKMM/bin/libgmodule-2.0-0.dll $DEST/libgmodule-2.0-0.dll
+cp $GTKMM/bin/libgobject-2.0-0.dll $DEST/libgobject-2.0-0.dll
+cp $GTKMM/bin/libgtk-win32-2.0-0.dll $DEST/libgtk-win32-2.0-0.dll
+cp $GTKMM/bin/libgtkmm-2.4-1.dll $DEST/libgtkmm-2.4-1.dll
+cp $GTKMM/bin/libpango-1.0-0.dll $DEST/libpango-1.0-0.dll
+cp $GTKMM/bin/libpangocairo-1.0-0.dll $DEST/libpangocairo-1.0-0.dll
+cp $GTKMM/bin/libpangomm-1.4-1.dll $DEST/libpangomm-1.4-1.dll
+cp $GTKMM/bin/libpangowin32-1.0-0.dll $DEST/libpangowin32-1.0-0.dll
+cp $GTKMM/bin/libpng12-0.dll $DEST/libpng12-0.dll
+cp $GTKMM/bin/libsigc-2.0-0.dll $DEST/libsigc-2.0-0.dll
+cp $GTKMM/bin/libtiff3.dll $DEST/libtiff3.dll
+cp $GTKMM/share/locale/en_CA/LC_MESSAGES/glib20.mo $DEST/share/locale/en_CA/LC_MESSAGES/glib20.mo
+cp $GTKMM/share/locale/en_CA/LC_MESSAGES/gtk20-properties.mo $DEST/share/locale/en_CA/LC_MESSAGES/gtk20-properties.mo
+cp $GTKMM/share/locale/en_CA/LC_MESSAGES/gtk20.mo $DEST/share/locale/en_CA/LC_MESSAGES/gtk20.mo
+cp $GTKMM/share/locale/en_GB/LC_MESSAGES/glib20.mo $DEST/share/locale/en_GB/LC_MESSAGES/glib20.mo
+cp $GTKMM/share/locale/en_GB/LC_MESSAGES/gtk20-properties.mo $DEST/share/locale/en_GB/LC_MESSAGES/gtk20-properties.mo
+cp $GTKMM/share/locale/en_GB/LC_MESSAGES/gtk20.mo $DEST/share/locale/en_GB/LC_MESSAGES/gtk20.mo
+cp $GTKMM/share/locale/fr/LC_MESSAGES/glib20.mo $DEST/share/locale/fr/LC_MESSAGES/glib20.mo
+cp $GTKMM/share/locale/fr/LC_MESSAGES/gtk20-properties.mo $DEST/share/locale/fr/LC_MESSAGES/gtk20-properties.mo
+cp $GTKMM/share/locale/fr/LC_MESSAGES/gtk20.mo $DEST/share/locale/fr/LC_MESSAGES/gtk20.mo
+cp $GTKMM/share/locale/fr/LC_MESSAGES/libiconv.mo $DEST/share/locale/fr/LC_MESSAGES/libiconv.mo
+cp $GTKMM/share/themes/Default/gtk-2.0-key/gtkrc $DEST/share/themes/Default/gtk-2.0-key/gtkrc
+cp $GTKMM/share/themes/Emacs/gtk-2.0-key/gtkrc $DEST/share/themes/Emacs/gtk-2.0-key/gtkrc
+cp $GTKMM/share/themes/MS-Windows/gtk-2.0/gtkrc $DEST/share/themes/MS-Windows/gtk-2.0/gtkrc
+cp $GTKMM/share/themes/Raleigh/gtk-2.0/gtkrc $DEST/share/themes/Raleigh/gtk-2.0/gtkrc
+cp $GTKMM/bin/zlib1.dll $DEST/zlib1.dll
