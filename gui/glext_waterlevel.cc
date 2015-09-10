@@ -23,7 +23,16 @@ glext_waterlevel::~glext_waterlevel()
 
 void glext_waterlevel::on_realize()
 {
-    // We need to call the base on_realize()
+    GLfloat paramfv1[]={0.4,0.4,0.4,1.};
+
+    float sable1[]={0.8f,0.8f,0.6f,1.f},sable2[]={0.8,0.8,0.5,1.},sable3[]={0.4,0.4,0.3,1.};
+    float neige1[]={1.,1.,1.,1.}, neige2[]={0.9,0.9,0.9,1.}, neige3[]={0.6,0.6,0.6,1.};
+    float eau1[]={0.0,0.9,1.,1.}, eau2[]={0.0,0.5,0.8,1.}, eau3[]={0.0,0.2,0.3,1.};
+    float hchaud1[]={1.,1.,1.,1.}, hchaud2[]={0.8,0.8,0.8,1.}, hchaud3[]={0.8,0.8,0.8,1.};
+    float hfroid1[]={1.,1.,1.,1.}, hfroid2[]={0.8,0.8,0.8,1.}, hfroid3[]={0.8,0.8,0.8,1.};
+    float pchaud1[]={1.,1.,1.,1.}, pchaud2[]={0.8,0.8,0.8,1.}, pchaud3[]={0.8,0.8,0.8,1.};
+    float pfroid1[]={1.,1.,1.,1.}, pfroid2[]={0.8,0.8,0.8,1.}, pfroid3[]={0.8,0.8,0.8,1.};
+   // We need to call the base on_realize()
     Gtk::GL::DrawingArea::on_realize();
 
     Glib::RefPtr<Gdk::GL::Window> glwindow = get_gl_window();
@@ -40,47 +49,26 @@ void glext_waterlevel::on_realize()
 #ifndef WIN32
     glLightModeli(GL_LIGHT_MODEL_COLOR_CONTROL,GL_SINGLE_COLOR);
 #endif
-    glLightModelfv(GL_LIGHT_MODEL_AMBIENT,(float[]) {0.4,0.4,0.4,1.});
+    glLightModelfv(GL_LIGHT_MODEL_AMBIENT,paramfv1);
     glLightModelf(GL_LIGHT_MODEL_LOCAL_VIEWER,0); 
 
     glEnable(GL_TEXTURE_2D); 	//Active le texturing
     glTexEnvf(GL_TEXTURE_ENV,GL_TEXTURE_ENV_MODE,GL_MODULATE);
 
     data_sable.gl_init("textures/sable.rgba",256,256);
-    data_sable.set_material((float[]){0.8f,0.8f,0.6f,1.f},
-	    (float[]){0.8,0.8,0.5,1.},
-	    (float[]){0.4,0.4,0.3,1.},
-	    100.);
+    data_sable.set_material(sable1, sable2, sable3, 100.);
     data_neige.gl_init("textures/neige.rgba",256,256);
-    data_neige.set_material((float[]) {1.,1.,1.,1.},
-	    (float[]) {0.9,0.9,0.9,1.},
-	    (float[]) {0.6,0.6,0.6,1.},
-	    5.);
+    data_neige.set_material(neige1,neige2,neige3,5.);
     data_eau.gl_init("textures/eau.rgba",256,256);
-    data_eau.set_material((float[]) {0.0,0.9,1.,1.},
-	    (float[]) {0.0,0.5,0.8,1.},
-	    (float[]) {0.0,0.2,0.3,1.},
-	    35.f);
+    data_eau.set_material(eau1,eau2,eau3,35.);
     data_homme_chaud.gl_init("textures/bonhomme_chaud.rgba",128,256,true);
-    data_homme_chaud.set_material((float[]) {1.,1.,1.,1.},
-	(float[]) {0.8,0.8,0.8,1.},
-	(float[]) {0.8,0.8,0.8,1.},
-	95.);	
+    data_homme_chaud.set_material(hchaud1,hchaud2,hchaud3,95.);	
     data_homme_froid.gl_init("textures/bonhomme_froid.rgba",128,256,true);
-    data_homme_chaud.set_material((float[]) {1.,1.,1.,1.},
-	(float[]) {0.8,0.8,0.8,1.},
-	(float[]) {0.8,0.8,0.8,1.},
-	95.);	
+    data_homme_froid.set_material(hfroid1,hfroid2,hfroid3,95.);	
     data_palmier_chaud.gl_init("textures/palmier-chaud.rgba",256,256,true);
-    data_palmier_chaud.set_material((float[]) {1.,1.,1.,1.},
-	(float[]) {0.8,0.8,0.8,1.},
-	(float[]) {0.8,0.8,0.8,1.},
-	95.);	
+    data_palmier_chaud.set_material(pchaud1,pchaud2,pchaud3,95.);	
     data_palmier_froid.gl_init("textures/palmier-froid.rgba",256,256,true);
-    data_palmier_froid.set_material((float[]) {1.,1.,1.,1.},
-	(float[]) {0.8,0.8,0.8,1.},
-	(float[]) {0.8,0.8,0.8,1.},
-	95.);	
+    data_palmier_froid.set_material(pfroid1,pfroid2,pfroid3,95.);	
 
     printf("generating water mesh\n");
     glNewList(2,GL_COMPILE);
@@ -148,6 +136,10 @@ bool glext_waterlevel::on_expose_event(GdkEventExpose* event)
 
 bool glext_waterlevel::redraw()
 {
+    GLint paramiv1[]={-20,-15,20,0};
+    GLfloat paramfv2[]={0.3,0.3,0.3,1.};
+    GLfloat paramfv3[]={1.,1.,1.,1.};
+    GLfloat paramfv4[]={1.,1.,1.,1.};
     Glib::RefPtr<Gdk::GL::Window> glwindow = get_gl_window();
     if (!glwindow->gl_begin(get_gl_context()))
 	return false;
@@ -160,10 +152,10 @@ bool glext_waterlevel::redraw()
     glLoadIdentity();
     //obliquité
     //glRotated(28,0,1,0);
-    glLightiv(GL_LIGHT0,GL_POSITION,(int[]) {-20,-15,20,0});
-    glLightfv(GL_LIGHT0,GL_AMBIENT,(float[]) {0.3,0.3,0.3,1.});
-    glLightfv(GL_LIGHT0,GL_DIFFUSE,(float[]) {1.,1.,1.,1.});
-    glLightfv(GL_LIGHT0,GL_SPECULAR,(float[]) {1.,1.,1.,1.});
+    glLightiv(GL_LIGHT0,GL_POSITION,paramiv1);
+    glLightfv(GL_LIGHT0,GL_AMBIENT,paramfv2);
+    glLightfv(GL_LIGHT0,GL_DIFFUSE,paramfv3);
+    glLightfv(GL_LIGHT0,GL_SPECULAR,paramfv4);
     //glLightf(GL_LIGHT0,GL_SPOT_EXPONENT,0.);
     static int b=0;
     b = (b+1)%300;

@@ -136,6 +136,13 @@ bool glext_calottes::on_expose_event(GdkEventExpose* event)
 
 bool glext_calottes::redraw()
 {
+    GLint paramiv[] = {-20,-10,0,0};
+    GLfloat paramfv1[] = {0.9,0.9,0.8,1.};
+    GLfloat paramfv2[] = {1.,1.,0.8,1.};
+    GLfloat paramfv3[] = {0.7,0.8,0.8,1.};
+    GLfloat paramfv4[] = {0.7,0.8,0.8,1.};
+    GLfloat paramfv5[] = {0.0,0.0,0.0,1.};
+    GLfloat paramfv6[] = {0.,0.0,0.2,1.};
     Glib::RefPtr<Gdk::GL::Window> glwindow = get_gl_window();
     if (!glwindow->gl_begin(get_gl_context()))
 	return false;
@@ -145,19 +152,19 @@ bool glext_calottes::redraw()
     glLineWidth(1.0);
     //glLightModelfv(GL_LIGHT_MODEL_AMBIENT,(float[]) {0.1,0.1,0.1,1.});
     glLoadIdentity();
-    glLightiv(GL_LIGHT0,GL_POSITION,(int[]) {-20,-10,0,0});
-    glLightfv(GL_LIGHT0,GL_DIFFUSE,(float[]) {0.9,0.9,0.8,1.});
-    glLightfv(GL_LIGHT0,GL_SPECULAR,(float[]) {1.,1.,0.8,1.});
+    glLightiv(GL_LIGHT0,GL_POSITION, paramiv);
+    glLightfv(GL_LIGHT0,GL_DIFFUSE,paramfv1);
+    glLightfv(GL_LIGHT0,GL_SPECULAR,paramfv2);
     //glLightf(GL_LIGHT0,GL_CONSTANT_ATTENUATION,0.2);
     //glLightf(GL_LIGHT0,GL_SPOT_EXPONENT,0.);
     //obliquité
     glRotated(-23,0,1,0);
     //Sélectionne ce n°
     glBindTexture(GL_TEXTURE_2D,calottes_texture[calotte_texture_select()].id); 	
-    glMaterialfv(GL_FRONT,GL_SPECULAR,(float[]) {0.7,0.8,0.8,1.});
-    glMaterialfv(GL_FRONT,GL_DIFFUSE,(float[]) {0.7,0.8,0.8,1.});
-    glMaterialfv(GL_FRONT,GL_AMBIENT,(float[]) {0.0,0.0,0.0,1.});
-    glMaterialfv(GL_FRONT,GL_EMISSION,(float[]) {0.,0.0,0.2,1.});
+    glMaterialfv(GL_FRONT,GL_SPECULAR,paramfv3);
+    glMaterialfv(GL_FRONT,GL_DIFFUSE,paramfv4);
+    glMaterialfv(GL_FRONT,GL_AMBIENT,paramfv5);
+    glMaterialfv(GL_FRONT,GL_EMISSION,paramfv6);
     glMaterialf(GL_FRONT,GL_SHININESS,10);
     //angle journalier
     static int angle_jour=0;
