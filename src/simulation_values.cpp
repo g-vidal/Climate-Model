@@ -1,12 +1,10 @@
 #include "simulation_values.h"
-#include <glibmm/ustring.h>
 #include <sstream>
 #include "globals.h"
 #include <iostream>
 using namespace std;
-using Glib::ustring;
 
-ustring SimulationValues::generate_name()
+string SimulationValues::generate_name()
 {
     static int number_of_simul=0;
     ostringstream oss;
@@ -14,7 +12,7 @@ ustring SimulationValues::generate_name()
     return oss.str();
 }
 
-void SimulationValues::init(const Glib::ustring& name)
+void SimulationValues::init(const string& name)
 {
     nom_simulation=name;
 }

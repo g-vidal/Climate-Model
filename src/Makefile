@@ -1,8 +1,7 @@
 include ../Makefile.conf
 
-PACKAGES=glibmm-2.4
-INCLUDES=`pkg-config --cflags ${PACKAGES}`
-LIBS=-L. -lclimat `pkg-config --libs ${PACKAGES}`
+INCLUDES=
+LIBS=-L. -lclimat
 
 #mettre ici tous les fichiers qui ne contiennent  
 #PAS de fonction main() et qui doivent faire partie de
