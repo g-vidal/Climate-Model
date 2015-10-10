@@ -64,7 +64,7 @@ create2001: modele_create_etat_2001.exe
 	${CXX} -c -o $@ ${CXXFLAGS} ${INCLUDES}  $<
 
 %.exe: %.o libclimat.a
-	${CXX} -o $@ ${CXXFLAGS} $< ${LIBS}
+	${CXX} -o $@ ${CXXFLAGS} $< ${LIBS} ${INTLLIBS}
 
 ../Makefile.conf: ../Makefile.unix.conf
 	cp -f $< $@
