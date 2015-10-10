@@ -33,7 +33,7 @@ SimulationValues create_etat_1750()
     s.precession_value=mc.precession_reset_value;
     s.alteration_value=mc.alteration_reset_value;
     // GIEC: A modifier ( cf 2001)
-    s.emit_anthro_coo_value=mc.emit_anthro_coo_reset_value;
+//    s.emit_anthro_coo_value=mc.emit_anthro_coo_reset_value;
     s.volcan_value=mc.volcan_reset_value;
     s.stockage_biologique_value=mc.stockage_biologique_reset_value;
 

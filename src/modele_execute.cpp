@@ -209,6 +209,9 @@ int modele_execute(){
     zCO2_ancien_prec=zCO2_ancien;
     zphig_ancien=s.niveau_calottes_data[0];
 
+
+    //** Boucle principale **
+    
     // intégration temporelle
     for (int t=1;t<=experience_values.indice_max();t++){
 

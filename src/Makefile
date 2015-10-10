@@ -15,6 +15,7 @@ modele_execute.o \
 simulation_values.o \
 modele_create_etat_1750.o \
 modele_create_etat_2007.o \
+modele_create_etat_2001.o \
 tableau.o
 
 #mettre ici les .o contenant une fonction main()
@@ -47,7 +48,7 @@ libclimat.a: ${LIBOBJS}
 
 clean:
 	rm -f ${LIBOBJS} ${EXEOBJS} libclimat.a
-	rm -f modele_test.exe sortie_test.out modele_create_etat_1750.exe modele_create_etat_2007.exe
+	rm -f modele_test.exe sortie_test.out modele_create_etat_1750.exe modele_create_etat_2007.exe modele_create_etat_2001.exe
 
 
 create1750: modele_create_etat_1750.exe
@@ -56,6 +57,8 @@ create1750: modele_create_etat_1750.exe
 create2007: modele_create_etat_2007.exe 
 	./modele_create_etat_2007.exe
 
+create2001: modele_create_etat_2001.exe 
+	./modele_create_etat_2001.exe
 
 %.o: %.cpp ${HEADERS}
 	${CXX} -c -o $@ ${CXXFLAGS} ${INCLUDES}  $<

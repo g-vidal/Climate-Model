@@ -50,7 +50,7 @@ SimulationValues create_etat_2001()
     //emith anthro_value est un tableau, ICI on peut passer la place le tableau GIEC
     s.emit_anthro_coo_value[t]=emit_anthro_coo_act;
     // Faut il prendre antrho t-1?
-	s.emissions_coo_data[t]=emit_anthro_coo_act[t]*(1-puit_bio_act-puit_ocean_act);
+	s.emissions_coo_data[t]=emit_anthro_coo_act*(1-puit_bio_act-puit_ocean_act);
 
 	s.albedo_data[t]=albedo_actuel*100;
     }
