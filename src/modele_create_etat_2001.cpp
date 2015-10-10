@@ -47,8 +47,8 @@ SimulationValues create_etat_2001()
 	s.niveau_mer_data[t]=0.;
 	s.niveau_calottes_data[t]=niveau_calottes_actuel;
 	s.concentrations_coo_data[t]=concentration_coo_actuel;
-    //antrho coo act et value sont désormais des tableaux.
-    s.emit_anthro_coo_value[t]=emit_anthro_coo_act[t];
+    //emith anthro_value est un tableau, ICI on peut passer la place le tableau GIEC
+    s.emit_anthro_coo_value[t]=emit_anthro_coo_act;
     // Faut il prendre antrho t-1?
 	s.emissions_coo_data[t]=emit_anthro_coo_act[t]*(1-puit_bio_act-puit_ocean_act);
 
