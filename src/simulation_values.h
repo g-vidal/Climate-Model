@@ -26,7 +26,8 @@ class SimulationValues
 	double coo_concentr_value;
 
 	//emission_dialog
-	double emit_anthro_coo_value;
+	// GIEC: vérifier que cette déclaration est adaptée
+	double emit_anthro_coo_value[200];
 	double volcan_value;
 	double alteration_value;
 	double stockage_biologique_value; 

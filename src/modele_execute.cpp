@@ -258,7 +258,7 @@ int modele_execute(){
 		SORTIE("modèle_excecute 254: zCO2_ancien="<<zCO2_ancien);
 
 		// ** calculs des emissions en Gt/an
-		SORTIE("s.emit_anthro_coo_value="<<s.emit_anthro_coo_value);
+		SORTIE("s.emit_anthro_coo_value="<<s.emit_anthro_coo_value[t]);
 		SORTIE("s.volcan_value="<<s.volcan_value);
 		SORTIE("zC_alteration*zCO2_ancien="<<zC_alteration*zCO2_ancien);		
 		SORTIE("zC_stockage*zCO2_ancien="<<zC_stockage*zCO2_ancien);
@@ -269,7 +269,7 @@ int modele_execute(){
 
 		// attention, on met des min et max pour éviter les pbs.
 		zsomme_flux_const=max(min(1.0-zpuit_oce-zpuit_bio,1.0),0.0)*
-		    (s.emit_anthro_coo_value
+		    (s.emit_anthro_coo_value[t]
 		     +s.volcan_value)
 		     +max(min(1-zpuit_bio,1.0),0.0)*zB_ocean*zCO2eq_oce
 		     +Fdegaz;

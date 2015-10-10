@@ -145,6 +145,7 @@ void SimulationValues::deep_copy(const SimulationValues& s)
     coo_concentr_value=s.coo_concentr_value;
 
     //emission_dialog
+    //GIEC: Attention on passe ici un tableau ( memoire..)
     emit_anthro_coo_value=s.emit_anthro_coo_value;
     volcan_value=s.volcan_value;
     alteration_value=s.alteration_value;
