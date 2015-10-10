@@ -14,13 +14,13 @@ void ExperienceValues::set_etat_initial(std::string filename,double echeance)
     calcul_indices(echeance);
     WARNING("entrée");
     SimulationValues s("initial");
-    SORTIE("input_file_name " << filename);
+    // SORTIE("input_file_name " << filename);
     ifstream ifs(filename.c_str());
     if (!ifs) {PLANTE("fichier inexistant");}	
     ifs >>s;
     ifs.close();
     WARNING("s lue");
-    SORTIE("s.nom_simulation=" << s.nom_simulation);
+    // SORTIE("s.nom_simulation=" << s.nom_simulation);
     WARNING("appel de recast_final_initial");
     etat_initial.recast_final_initial(s);
 }

@@ -10,9 +10,9 @@ using namespace std;
 int main() 
 {
 
-    SORTIE("modele_test 10: début de main");
+    // SORTIE("modele_test 10: début de main");
 
-    SORTIE("modele_test 17: appel de set_etat_initial");
+    // SORTIE("modele_test 17: appel de set_etat_initial");
     //set_etat_initial(fichier,echeance)
     // experience_values.set_etat_initial(create_etat_1750(),1e5);
 
@@ -23,7 +23,7 @@ int main()
 
 
     experience_values.push_back_simulation();
-    SORTIE("modele_test 21: annee_debut="<<experience_values.annee_debut());
+    // SORTIE("modele_test 21: annee_debut="<<experience_values.annee_debut());
 
     {
 	SimulationValues& sv = experience_values.back();
@@ -53,7 +53,7 @@ int main()
     modele_execute();
 
 
-    SORTIE("modele_test 23: simulation 1 terminée");
+    // SORTIE("modele_test 23: simulation 1 terminée");
 
     //on veut afficher deux tableaux sur un meme graphique
     graph_designer gds;
@@ -80,8 +80,8 @@ int main()
 	    << gds.ytickvalue(i) << "\t" 
 	    << gds.yticklabel(i) << endl;
 
-    // sortie pour gnuplot dans gnuplot.txt
-    SORTIE("sortie dans gnuplot.data");
+    // // SORTIE pour gnuplot dans gnuplot.txt
+    // SORTIE("// SORTIE dans gnuplot.data");
     ofstream ofs("../figs/gnuplot.data");
     for (int i=0;i<100;i++) {
 	ofs << gds.xvalue(i/100.) << "\t" 
@@ -94,7 +94,7 @@ int main()
     }
     ofs.close();
 
-    SORTIE("modele_test 93: nouvelle simulation");	
+    // SORTIE("modele_test 93: nouvelle simulation");	
     gds.clear();
     experience_values.push_back_simulation();
     {
@@ -124,7 +124,7 @@ int main()
 	sv.stockage_biologique_value=-stockage_max;
     }
     modele_execute();
-    SORTIE("modele_test 98: simulation 2 terminée");
+    // SORTIE("modele_test 98: simulation 2 terminée");
 
     //on veut afficher deux tableaux sur un meme graphique
     gds.add(experience_values.back().temperature_data);
@@ -134,7 +134,7 @@ int main()
     gds.add(experience_values.back().niveau_calottes_data);
     gds.add(experience_values.back().albedo_data);
     gds.pack(experience_values.back().annee_debut);
-    SORTIE("sortie dans gnuplot2.data");
+    // SORTIE("SORTIE dans gnuplot2.data");
     ofs.open("../figs/gnuplot2.data");
     for (int i=0;i<100;i++) {
 	ofs << gds.xvalue(i/100.) << "\t" 
@@ -149,8 +149,8 @@ int main()
 
 
     //tracé des graphes
-    SORTIE("tracer des graphes: taper:");
-    SORTIE("gnuplot ../figs/gnuplot.plot")
+    // SORTIE("tracer des graphes: taper:");
+    // SORTIE("gnuplot ../figs/gnuplot.plot")
 
 }
 
