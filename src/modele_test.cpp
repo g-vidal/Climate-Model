@@ -14,7 +14,13 @@ int main()
 
     SORTIE("modele_test 17: appel de set_etat_initial");
     //set_etat_initial(fichier,echeance)
-    experience_values.set_etat_initial(create_etat_1750(),1e5);
+    // experience_values.set_etat_initial(create_etat_1750(),1e5);
+
+    //Simulation de 2001 à 2100
+    experience_values.set_etat_initial(create_etat_2001(),100);
+
+    
+
 
     experience_values.push_back_simulation();
     SORTIE("modele_test 21: annee_debut="<<experience_values.annee_debut());

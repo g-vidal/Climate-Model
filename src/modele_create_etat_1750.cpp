@@ -32,6 +32,7 @@ SimulationValues create_etat_1750()
     s.excentricite_value=mc.excentricite_reset_value;
     s.precession_value=mc.precession_reset_value;
     s.alteration_value=mc.alteration_reset_value;
+    // A modifier
     s.emit_anthro_coo_value=mc.emit_anthro_coo_reset_value;
     s.volcan_value=mc.volcan_reset_value;
     s.stockage_biologique_value=mc.stockage_biologique_reset_value;
