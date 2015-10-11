@@ -14,7 +14,13 @@ int main()
 
     // SORTIE("modele_test 17: appel de set_etat_initial");
     //set_etat_initial(fichier,echeance)
-    experience_values.set_etat_initial(create_etat_1750(),1e5);
+    // experience_values.set_etat_initial(create_etat_1750(),1e5);
+
+    //Simulation de 2001 à 2100
+    experience_values.set_etat_initial(create_etat_2001(),100);
+
+    
+
 
     experience_values.push_back_simulation();
     // SORTIE("modele_test 21: annee_debut="<<experience_values.annee_debut());
@@ -39,7 +45,8 @@ int main()
 	sv.excentricite_value=mc.excentricite_reset_value;
 	sv.precession_value=mc.precession_reset_value;
 	sv.alteration_value=mc.alteration_reset_value;
-	sv.emit_anthro_coo_value=8;
+	// GIEC: passer ici un tableau
+	//sv.emit_anthro_coo_value=8;
 	sv.volcan_value=mc.volcan_reset_value;
 	//sv.stockage_biologique_value=-stockage_max*0.001;
     }
@@ -111,7 +118,8 @@ int main()
 	sv.excentricite_value=mc.excentricite_reset_value;
 	sv.precession_value=mc.precession_reset_value;
 	sv.alteration_value=mc.alteration_reset_value;
-	sv.emit_anthro_coo_value=0;
+	//GIEC: Passer ici un tableau (par valeur)
+	//sv.emit_anthro_coo_value=0;
 	sv.volcan_value=mc.volcan_reset_value*10;
 	sv.stockage_biologique_value=-stockage_max;
     }

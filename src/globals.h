@@ -17,6 +17,7 @@ extern ExperienceValues experience_values;
 
 SimulationValues create_etat_1750();
 SimulationValues create_etat_2007();
+SimulationValues create_etat_2000();
 
 int modele_execute();
 

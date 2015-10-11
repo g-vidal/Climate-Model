@@ -593,7 +593,8 @@ void choix_des_parametres_dialog::read_from_SimulationValues()
 
     //emission_dialog
     emissions_anthro_autres_radiobutton->set_active();
-    emissions_anthro_autre_spinbutton->set_value(sv.emit_anthro_coo_value);
+    //GIEC Attention, la céfo
+    emissions_anthro_autre_spinbutton->set_value(sv.emit_anthro_coo_value[0]);
     volcanisme_autre_radiobutton->set_active();
     volcanisme_autre_spinbutton->set_value(sv.volcan_value);
     alteration_autre_radiobutton->set_active();
@@ -676,7 +677,7 @@ void choix_des_parametres_dialog::store_to_SimulationValues()
     sv.coo_concentr_value=concentration_autre_spinbutton->get_value();
 
     //emission_dialog
-    sv.emit_anthro_coo_value=emissions_anthro_autre_spinbutton->get_value();
+    sv.emit_anthro_coo_value[0]=emissions_anthro_autre_spinbutton->get_value();
     sv.volcan_value=volcanisme_autre_spinbutton->get_value();
     sv.alteration_value=alteration_autre_spinbutton->get_value();
     sv.stockage_biologique_value=stockage_autre_spinbutton->get_value(); 
