@@ -1,7 +1,0 @@
-*.o
-*.a
-*.exe
-build*
-Makefile.conf
-*.swp
-*.user

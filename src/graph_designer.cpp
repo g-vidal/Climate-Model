@@ -5,6 +5,7 @@
 #include <iomanip>
 #include <sstream>
 using namespace std;
+using Glib::ustring;
 
 
 void graph_designer::clear()
@@ -116,10 +117,10 @@ static inline void reformat_number(char* c, const int nbchs)
 
 }
 
-string graph_designer::xticklabel(int tick_id)
+Glib::ustring graph_designer::xticklabel(int tick_id)
 {
     ostringstream c; c << setprecision(5) << xtickvalue(tick_id);    
-    return c.str();
+    return ustring(c.str());
 }
 double graph_designer::ytickvalue(int tick_id)
 {
@@ -129,10 +130,10 @@ double graph_designer::ytickpercent(int tick_id)
 {
     return (ytickvalue(tick_id)-ymin)/(ymax-ymin);
 }
-string graph_designer::yticklabel(int tick_id)
+Glib::ustring graph_designer::yticklabel(int tick_id)
 {
     ostringstream c; c << setprecision(5) << ytickvalue(tick_id);    
-    return c.str();
+    return ustring(c.str());
 }
 
 graph_designer::graph_designer()

@@ -1,7 +1,7 @@
 #ifndef MODELES_CONSTANTS_H
 #define MODELES_CONSTANTS_H
 #include "graphe_shown.h"
-#include <string>
+#include <glibmm/ustring.h>
 
 
 class ModeleConstants
@@ -124,6 +124,6 @@ class ModeleConstants
 	double precession_reset_value;
 
 	ModeleConstants();
-  std::string graph_type_title(GraphShown gs) const;
+	Glib::ustring graph_type_title(GraphShown gs) const;
 };
 #endif // MODELES_CONSTANTS_H

@@ -34,8 +34,7 @@ SimulationValues create_etat_2007()
     s.excentricite_value=mc.excentricite_reset_value;
     s.precession_value=mc.precession_reset_value;
     s.alteration_value=mc.alteration_reset_value;
-    // GIEC : A modifier cf create 2001
-  //  s.emit_anthro_coo_value=emit_anthro_coo_act;
+    s.emit_anthro_coo_value=emit_anthro_coo_act;
     s.volcan_value=mc.volcan_reset_value;
     s.stockage_biologique_value=mc.stockage_biologique_reset_value;
 

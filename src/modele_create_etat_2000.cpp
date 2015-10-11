@@ -9,16 +9,14 @@ using namespace std;
 #define mc modele_constants 
 
 #define ID_MIN -100
-    // id max à 101, à tester,
 #define ID_MAX 100
 #define TEMPS_ELEM 1.
 #define INTERN_ECHEANCE 100.
 
-// Version destinée à accueillir les données du GIEC 
-
-// insérer ici la fonction qui interpole les valeurs GIEC
+// insérer ici la routine qui interpole  les valeurs GIEC
 // pour le monde et le scénario choisi 
 // ou chaque région et le scénario choisi
+
 
 SimulationValues create_etat_2000() 
 {
@@ -41,6 +39,7 @@ SimulationValues create_etat_2000()
     s.excentricite_value=mc.excentricite_reset_value;
     s.precession_value=mc.precession_reset_value;
     s.alteration_value=mc.alteration_reset_value;
+    s.emit_anthro_coo_value=emit_anthro_coo_act;
     s.volcan_value=mc.volcan_reset_value;
     s.stockage_biologique_value=mc.stockage_biologique_reset_value;
 
@@ -51,11 +50,7 @@ SimulationValues create_etat_2000()
 	s.niveau_mer_data[t]=0.;
 	s.niveau_calottes_data[t]=niveau_calottes_actuel;
 	s.concentrations_coo_data[t]=concentration_coo_actuel;
-    //emith anthro_value est un tableau, ICI on peut passer à la place le tableau GIEC
-    s.emit_anthro_coo_value[t]=emit_anthro_coo_act;
-    // Faut il prendre anthro t-1?
 	s.emissions_coo_data[t]=emit_anthro_coo_act*(1-puit_bio_act-puit_ocean_act);
-
 	s.albedo_data[t]=albedo_actuel*100;
     }
     return s;

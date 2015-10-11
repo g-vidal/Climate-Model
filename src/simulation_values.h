@@ -1,15 +1,15 @@
 #ifndef SIMULATION_VALUES_H
 #define SIMULATION_VALUES_H
 
-#include <string.h>
+#include <glibmm/ustring.h>
 #include "tableau.h"
 
 //current values
 class SimulationValues
 {
     public:
-    static std::string generate_name();
-    std::string nom_simulation;
+	static Glib::ustring generate_name();
+	Glib::ustring nom_simulation;
 	double annee_debut;
 
 	tableau emissions_coo_data;
@@ -26,8 +26,7 @@ class SimulationValues
 	double coo_concentr_value;
 
 	//emission_dialog
-	// GIEC: vérifier que cette déclaration est adaptée
-	double emit_anthro_coo_value[201];
+	double emit_anthro_coo_value;
 	double volcan_value;
 	double alteration_value;
 	double stockage_biologique_value; 
@@ -55,19 +54,19 @@ class SimulationValues
 	double rapport_H2O_value;
 
         private:
-    void init(const std::string& name);
+	void init(const Glib::ustring& name);
     public:
 	inline SimulationValues() 
 	{
 	    init("new Simulation Value");
 	}
-    inline SimulationValues(const std::string& name)
+	inline SimulationValues(const Glib::ustring& name)
 	{
 	    init(name);
 	}
 	//ce constructeur est appelé pour créer des simulation 
 	//values constants (1750 et/ou 2007)
-    SimulationValues(const std::string& name,
+	SimulationValues(const Glib::ustring& name,
 		int indice_min,
 		int indice_max,
 		double temps_elem):

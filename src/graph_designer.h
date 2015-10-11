@@ -2,6 +2,7 @@
 #define GRAPH_DESIGNER_H
 
 #include "tableau.h"
+#include <glibmm/ustring.h>
 #include <vector>
 #include <cstdlib>
 
@@ -42,12 +43,12 @@ class graph_designer
 	double xvalue(double x_percent);
 	double yvalue(int tab_id,double x_percent);
 	double ypercent(int tab_id,double x_percent);
-  std::string xticklabel(int tick_id);
+	Glib::ustring xticklabel(int tick_id);
 	double xtickvalue(int tick_id);
 	double xtickpercent(int tick_id);
 	inline int nbxtick() {return xticknb;}
 	inline int nbytick() {return yticknb;}
-  std::string yticklabel(int tick_id);
+	Glib::ustring yticklabel(int tick_id);
 	double ytickpercent(int tick_id);
 	double ytickvalue(int tick_id);
 
