@@ -15,7 +15,7 @@ modele_execute.o \
 simulation_values.o \
 modele_create_etat_1750.o \
 modele_create_etat_2007.o \
-modele_create_etat_2001.o \
+modele_create_etat_2000.o \
 tableau.o
 
 #mettre ici les .o contenant une fonction main()
@@ -57,8 +57,8 @@ create1750: modele_create_etat_1750.exe
 create2007: modele_create_etat_2007.exe 
 	./modele_create_etat_2007.exe
 
-create2001: modele_create_etat_2001.exe 
-	./modele_create_etat_2001.exe
+create2001: modele_create_etat_2000.exe 
+	./modele_create_etat_2000.exe
 
 %.o: %.cpp ${HEADERS}
 	${CXX} -c -o $@ ${CXXFLAGS} ${INCLUDES}  $<

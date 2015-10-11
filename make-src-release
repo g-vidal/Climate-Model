@@ -46,6 +46,7 @@ simclimat/src/globals.cpp \
 simclimat/src/graph_designer.cpp \
 simclimat/src/modele_constants.cpp \
 simclimat/src/modele_create_etat_1750.cpp \
+simclimat/src/modele_create_etat_2000.cpp \
 simclimat/src/modele_create_etat_2007.cpp \
 simclimat/src/modele_execute.cpp \
 simclimat/src/modele_test.cpp \
