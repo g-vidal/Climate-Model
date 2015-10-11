@@ -130,7 +130,7 @@ ModeleConstants::ModeleConstants()
     precession_autre_max=360;
 }
 
-string ModeleConstants::graph_type_title(GraphShown gs) const
+Glib::ustring ModeleConstants::graph_type_title(GraphShown gs) const
 {
     //TODO UTF-8
     switch(gs)

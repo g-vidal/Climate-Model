@@ -211,9 +211,6 @@ int modele_execute(){
     zCO2_ancien_prec=zCO2_ancien;
     zphig_ancien=s.niveau_calottes_data[0];
 
-
-    //** Boucle principale **
-    
     // int�gration temporelle
     for (int t=1;t<=experience_values.indice_max();t++){
 
@@ -263,7 +260,6 @@ int modele_execute(){
 		// SORTIE("modèle_excecute 254: zCO2_ancien="<<zCO2_ancien);
 
 		// ** calculs des emissions en Gt/an
-
 		// SORTIE("s.emit_anthro_coo_value="<<s.emit_anthro_coo_value);
 		// SORTIE("s.volcan_value="<<s.volcan_value);
 		// SORTIE("zC_alteration*zCO2_ancien="<<zC_alteration*zCO2_ancien);		
@@ -275,7 +271,7 @@ int modele_execute(){
 
 		// attention, on met des min et max pour éviter les pbs.
 		zsomme_flux_const=max(min(1.0-zpuit_oce-zpuit_bio,1.0),0.0)*
-		    (s.emit_anthro_coo_value[t]
+		    (s.emit_anthro_coo_value
 		     +s.volcan_value)
 		     +max(min(1-zpuit_bio,1.0),0.0)*zB_ocean*zCO2eq_oce
 		     +Fdegaz;

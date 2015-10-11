@@ -1,10 +1,12 @@
 #include "simulation_values.h"
+#include <glibmm/ustring.h>
 #include <sstream>
 #include "globals.h"
 #include <iostream>
 using namespace std;
+using Glib::ustring;
 
-string SimulationValues::generate_name()
+ustring SimulationValues::generate_name()
 {
     static int number_of_simul=0;
     ostringstream oss;
@@ -12,7 +14,7 @@ string SimulationValues::generate_name()
     return oss.str();
 }
 
-void SimulationValues::init(const string& name)
+void SimulationValues::init(const Glib::ustring& name)
 {
     nom_simulation=name;
 }
@@ -105,8 +107,7 @@ std::istream& operator>>(std::istream& in,SimulationValues& sv)
     in >> sv.albedo_data;
     in >> sv.fixed_concentration;
     in >> sv.coo_concentr_value;
-    // pour dev
-    // in >> sv.emit_anthro_coo_value;
+    in >> sv.emit_anthro_coo_value;
     in >> sv.volcan_value;
     in >> sv.alteration_value;
     in >> sv.stockage_biologique_value;
@@ -129,9 +130,6 @@ std::istream& operator>>(std::istream& in,SimulationValues& sv)
 
 void SimulationValues::deep_copy(const SimulationValues& s)
 {
-    //indice pour copie de tableau
-    int k;
-
     nom_simulation=s.nom_simulation.c_str();
     annee_debut=s.annee_debut;
 
@@ -149,10 +147,7 @@ void SimulationValues::deep_copy(const SimulationValues& s)
     coo_concentr_value=s.coo_concentr_value;
 
     //emission_dialog
-    //GIEC: On copie subtilement le tableau
-    for (k = 0; k < 200; k++) {
-      emit_anthro_coo_value[k]=s.emit_anthro_coo_value[k];
-   }
+    emit_anthro_coo_value=s.emit_anthro_coo_value;
     volcan_value=s.volcan_value;
     alteration_value=s.alteration_value;
     stockage_biologique_value=s.stockage_biologique_value; 
